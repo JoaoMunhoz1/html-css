@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(199, 165, 165);
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(92, 92, 92);
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.493);
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+section#assuntos {
+    background-color: rgb(92, 92, 92);
+    font-weight: bolder;
+    color: rgb(204, 202, 202);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+article {
+    background-color: lightgray;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.Brasil {
+    border-radius: 10px;
+    border-left: 5px solid lightblue
+}
+
+.textobr {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.destaquebr {
+    background-color: lightblue;
+    font-weight: normal;
+}
+
+.textomundo {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.Mundo {
+    border-radius: 10px;
+    border-left: 5px solid lightgreen
+}
+
+.destaquemundo {
+    background-color: lightgreen;
+    font-weight: normal;
+}
+
+article>aside {
+    margin: 5px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}

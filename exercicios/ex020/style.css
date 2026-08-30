@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+
+    div > p {
+        display: none;
+    }
+
+    div:hover > p {
+        display: block;
+        padding: 4px;
+        color: white;
+        background-color: red;
+        width: 140px;
+        border-radius: 10px;
+        border: solid 2px black;
+    }
+
+    div:hover {
+        color: red;
+    }
